@@ -1,0 +1,6 @@
+Students Info
+Alice NA CS 101
+Bob NA EE 102
+Charlie UC EE 103
+David CC MAE 104
+Eva CC IE 105
