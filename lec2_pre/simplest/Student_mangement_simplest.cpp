@@ -17,6 +17,9 @@ int main() {
     }
 
     // Skip the first line (header: "Students Info")
+//array
+
+
     char header[50];
     infile.getline(header, 50);
 
@@ -76,9 +79,10 @@ int main() {
     cin >> command;
 
     // ====== Phase 4: Execute Function (ALL MANUAL, NO LOOPS) ======
+    /* if */
 
     // ----- Function 1: Count NA College Students (one by one) -----
-    if (strcmp(command, "NA") == 0) {
+    if (strcmp(command, "NA") == 0) {  //int strcmp(const char *str1, const char *str2); 
         int count = 0;
 
         // Check student 1
